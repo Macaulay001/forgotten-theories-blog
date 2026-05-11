@@ -41,7 +41,7 @@ Energy is conserved exactly per pair (the relative magnitude is preserved), so t
 
 The direct draw matched.
 
-![Maxwell-Boltzmann histogram vs analytical PDF](https://raw.githubusercontent.com/Macaulay001/forgotten-theories-blog/main/posts/figures/69_69_pdf.png)
+![Maxwell-Boltzmann histogram vs analytical PDF](https://raw.githubusercontent.com/Macaulay001/forgotten-theories-blog/main/posts/figures/69_pdf.png)
 
 The 5000-sample histogram tracks the analytical PDF inside the bin-to-bin Poisson noise across the full range from zero to about 1300 m/s. The vertical dashed lines mark v_mp, ⟨v⟩, and v_rms in their theoretical positions. The histogram does what it should at each of them: zero density at v = 0, a peak around v_mp, and a long tail past v_rms.
 
@@ -58,7 +58,7 @@ One subtlety. The empirical v_mp pulled from an 80-bin histogram comes out at 45
 
 The relaxation from the monoenergetic shell told the same story in motion.
 
-![Relaxation from monoenergetic shell](https://raw.githubusercontent.com/Macaulay001/forgotten-theories-blog/main/posts/figures/69_69_relaxation.png)
+![Relaxation from monoenergetic shell](https://raw.githubusercontent.com/Macaulay001/forgotten-theories-blog/main/posts/figures/69_relaxation.png)
 
 At step 0 the speed histogram is a spike at v_rms. Every particle has the same |v|, by construction. After a single collision step (which on average gives each particle two collisions), the spike has already broadened into a wide hump. By step 5 the histogram is unimodal and visually Maxwellian, with the peak in roughly the right place. By step 10 it overlays the analytical PDF inside the noise. By step 50 the system sits on the equilibrium curve and stays there.
 
